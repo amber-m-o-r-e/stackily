@@ -16,6 +16,12 @@ For client side html
 <script language='JavaScript' src='stackily.js'></script>
 ```
 
+
+###Require statement:
+```javascript
+var STACKILY = require('stackily');
+```
+
 ###Quick start:
 ```javascript
 // Example for defining stackily processor.
@@ -52,7 +58,20 @@ stackily_processor.process({
 
 ```
 
-Above request processor can be used with different item collection, somewhere else.
+&quot;From&quot; and &quot;to&quot; are also supportable.
+
+```
+stackily_processor.process({
+    'from': 1,
+    'to': 10
+    // Here we can consider number of items equals to number of requests. 
+    'slab': 3 
+    // This specifies frequency for parallel processing.
+});
+```
+
+The above request processor can be used with different item collections, somewhere else.
+
 ```javascript
 // We will run this processor with different item collection.
 stackily_processor.process({

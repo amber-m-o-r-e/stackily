@@ -1,1 +1,1 @@
-var STACKILY = module.exports = require('./lib/stackily').STACKIFY;
+var STACKILY = module.exports = require('./lib/stackily').STACKILY;
