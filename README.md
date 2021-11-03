@@ -60,11 +60,10 @@ stackily_processor.process({
 
 &quot;From&quot; and &quot;to&quot; are also supportable.
 
-```
+```javascript
 stackily_processor.process({
     'from': 1,
-    'to': 10
-    // Here we can consider number of items equals to number of requests. 
+    'to': 10,
     'slab': 3 
     // This specifies frequency for parallel processing.
 });
