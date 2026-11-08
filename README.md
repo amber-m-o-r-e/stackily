@@ -287,4 +287,4 @@ Again, if we need to delay our next execution we can do that with .delay method.
 
 
 ###License
-Copyright 2021, Amber More - MIT License (enclosed)
+Copyright 2026, Amber More - MIT License (enclosed)
